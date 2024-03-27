@@ -18,7 +18,7 @@ public class Variaveis {
 
     private String solicitarValor(String nomeVariavel){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o " + nomeVariavel + ": ");
+        System.out.println("Digite o " + nomeVariavel + " do colaborador: ");
         return scanner.nextLine();
     }
 }
