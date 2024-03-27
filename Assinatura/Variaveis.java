@@ -13,6 +13,7 @@ public class Variaveis {
         this.numero = solicitarValor("numero");
         this.ramal = solicitarValor("ramal");
         this.html = solicitarValor("html");
+        // fazendo com que o metodo solicitarValor defina o valor das variáveis
     }
 
     private String solicitarValor(String nomeVariavel){

@@ -8,6 +8,8 @@ public class Script2 {
             FileWriter arquivo = new FileWriter(vars2.html+".html");
             PrintWriter gravarArquivo = new PrintWriter(arquivo);
 
+            // aqui estão todas as linhas do html das assinaturas junto das variáveis que serão alteradas conforme o usuário desejar
+            // bastaria substituir o corpo do html (linha a linha, cada linha do html é uma linha do codigo abaixo) e realocar as variáveis conforme desejar
             gravarArquivo.println("<!DOCTYPE html>");
             gravarArquivo.println("<html lang=\"pt-br\">");
             gravarArquivo.println("<head>");
